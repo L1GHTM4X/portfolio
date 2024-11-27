@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/a61a489747.js" crossorigin="anonymous"></script>
+    <title>Portfolio | Maxime Leclerc</title>
+  </head>
+  <body>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-container">
+        <div class="img-hero"><img src="./assets/images/me_centreBell.jpg" alt="Maxime" /></div>
+        <div class="hero-text">
+          <h1 class="fade-in-top">Hi, I'm Maxime</h1>
+          <h2 class="fade-in-top">Web Developer</h2>
+        </div>
+        <div class="nav-container">
+          <a class="primary-button fade-in-top" href="#about-me-hr">About me</a>
+          <a class="primary-button fade-in-top animation--delay-0-1s" href="#education-hr">Education</a>
+          <a class="primary-button fade-in-top animation--delay-0-2s" href="#skills-hr">Skills</a>
+          <a class="primary-button fade-in-top animation--delay-0-3s" href="#contact-hr">Contact me</a>
+        </div>
+      </div>
+    </section>
+    <hr id="about-me-hr" />
+    <!-- about me -->
+    <section id="about-me">
+      <div class="container">
+        <h2 class="title">About me</h2>
+        <div class="about-me-content">
+          <div class="about-me-text">
+            <p>
+              Passionate about web development, having completed an internship on the development of full stack web applications as well as several
+              academic projects.
+            </p>
+          </div>
+          <img class="img-about" src="./assets/images/me_france.jpg" alt="Maxime" />
+        </div>
+      </div>
+    </section>
+    <hr id="education-hr" />
+    <!-- Education -->
+    <section id="education">
+      <div class="container">
+        <h2 class="title">Education</h2>
+        <div class="education-content">
+          <img class="img-education" src="./assets/images/Laptop_notebook.png" alt="Laptop" />
+          <div class="education-text">
+            <ul>
+              <li>
+                AEC INTERNSHIP | PROGRAMMER ANALYST<br />
+                Virage Simulation, 2023
+              </li>
+              <li>
+                AEC | Programmer Analyst<br />
+                Collège LaSalle, 2022-2023
+              </li>
+              <li>
+                DEP INTERNSHIP | IT<br />
+                AV&R, 2021
+              </li>
+              <li>
+                DEP | IT<br />
+                CFP Des Riverains, 2020-2021
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr id="skills-hr" />
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="title">Skills</h2>
+        <div class="skills-content">
+          <div class="skill-item">
+            <img src="./assets/images/html_logo.png" alt="html" />
+            <h3>html</h3>
+          </div>
+          <div class="skill-item">
+            <img src="./assets/images/css_logo.png" alt="css" />
+            <h3>css</h3>
+          </div>
+          <div class="skill-item">
+            <img src="./assets/images/javascript_logo.png" alt="javascript" />
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-item">
+            <img src="./assets/images/react_logo.png" alt="react" />
+            <h3>React</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr id="contact-hr" />
+    <!-- Contact me -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="contact-item social-link">
+            <h3>Get in touch :</h3>
+            <ul>
+              <li>
+                <a href="#contact">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <br />
+              <li>
+                <a href="https://github.com/L1GHTM4X">GitHub <i class="fa-brands fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+          <form action="#contact">
+            <label for="name">Name</label>
+            <input class="textField" type="text" id="name" name="fullName" placeholder="Your name.." required />
+
+            <label for="email">Email</label>
+            <input class="textField" type="text" id="email" name="email" placeholder="Your email.." required />
+
+            <label for="message">Message</label>
+            <textarea class="textField" id="message" name="message" placeholder="Your message.." required></textarea>
+
+            <input class="form-button" type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p id="copyright">© Maxime Leclerc. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
